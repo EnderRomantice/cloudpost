@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "url": "www.bilibili.com",
+            "postData": {
+                "name": "Alex"
+            }
+        },
+        {
+            "url": "www.pixiv.com",
+            "postData": {
+                "name": "Winner"
+            }
+        },
+        {
+            "url": "www.minecraft.com",
+            "postData": {
+                "name": "Dream"
+            }
+        }
+    ]
+}

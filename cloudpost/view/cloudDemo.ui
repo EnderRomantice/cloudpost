@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>882</width>
+    <height>594</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_4">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item alignment="Qt::AlignmentFlag::AlignLeft">
+         <widget class="QTextEdit" name="leftOut">
+          <property name="minimumSize">
+           <size>
+            <width>130</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>481</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="rightOut">
+          <property name="minimumSize">
+           <size>
+            <width>451</width>
+            <height>312</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QComboBox" name="logSave">
+          <property name="minimumSize">
+           <size>
+            <width>101</width>
+            <height>53</height>
+           </size>
+          </property>
+          <item>
+           <property name="text">
+            <string>SAVE</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>NO_SAVA</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="outUse">
+          <property name="minimumSize">
+           <size>
+            <width>101</width>
+            <height>53</height>
+           </size>
+          </property>
+          <item>
+           <property name="text">
+            <string>HTML</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JSON</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="startButton">
+          <property name="minimumSize">
+           <size>
+            <width>101</width>
+            <height>53</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>start</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QComboBox" name="reqMethod">
+            <property name="minimumSize">
+             <size>
+              <width>101</width>
+              <height>52</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">text-align: center;</string>
+            </property>
+            <item>
+             <property name="text">
+              <string>GET</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>POST</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>PUT</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>DELETE</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="codeUse">
+            <property name="minimumSize">
+             <size>
+              <width>101</width>
+              <height>53</height>
+             </size>
+            </property>
+            <item>
+             <property name="text">
+              <string>https://</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>http://</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="urlInput">
+            <property name="minimumSize">
+             <size>
+              <width>631</width>
+              <height>51</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QLabel" name="postLabel">
+            <property name="text">
+             <string>POST_DATA</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="postInput">
+            <property name="minimumSize">
+             <size>
+              <width>631</width>
+              <height>51</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
